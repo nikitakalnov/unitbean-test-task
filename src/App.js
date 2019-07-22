@@ -1,26 +1,35 @@
 import React from 'react';
-import logo from './logo.svg';
+import { Route, Switch } from 'react-router-dom';
+import ArticlesOverview from './containers/ArticlesOverview';
+import SuccessfulAddingArticle from './components/SuccessfulAddingArticle';
 import './App.css';
+import { connect } from 'react-redux';
 
-function App() {
+import CreateArticle from './components/CreateArticle';
+import Article from './containers/Article';
+
+const App = (props) => {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+
+      <Route exact path="/" component={ArticlesOverview}/>
+      <Route exact path="/new-successful" render={(props) => <SuccessfulAddingArticle {...props} />} />
+      <Route path="/new" component={CreateArticle}/>
+      <Switch>
+        {props.posts.map(post => {
+          return <Route key={post.id} path={`/posts/${post.id}`} render={props => 
+            <Article {...props} header={post.header} text={post.text} image={post.image} comments={post.comments} id={post.id}/>
+          }/>
+        })}
+      </Switch>
     </div>
   );
 }
 
-export default App;
+const mapStateToProps = state => {
+  return {
+    posts: state.posts
+  }
+}
+
+export default connect(mapStateToProps)(App);

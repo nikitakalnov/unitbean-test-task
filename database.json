@@ -1,0 +1,215 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "header": "Мобильные приложения в маркетинге",
+      "text": "Мобильные приложения - мощный инструмент маркетинга. И многочисленные примеры компаний, ведущих бизнес в различных сферах, подтверждают это результатами своей деятельности.",
+      "image": "http://localhost:3001/assets/images/posts/post-picture.png",
+      "date": "11 Jan 2017 15:16:34 GMT+0400",
+      "comments": [
+        {
+          "id": 1,
+          "text": "Класс!",
+          "username": "Александр",
+          "avatar": "",
+          "date": "12 Jan 2017 11:20:36 GMT+0400"
+        },
+        {
+          "username": "Пользователь",
+          "date": "2019-07-22T13:57:42.722Z",
+          "text": "Kekos!",
+          "avatar": "http://localhost:3001/assets/images/avatars/username.svg",
+          "id": 2
+        },
+        {
+          "username": "Пользователь",
+          "date": "2019-07-22T13:57:54.855Z",
+          "text": "Kekos2",
+          "avatar": "http://localhost:3001/assets/images/avatars/username.svg",
+          "id": 3
+        }
+      ],
+      "maxCommentId": 3
+    },
+    {
+      "id": 2,
+      "header": "Как сделать интернет-магазин успешным",
+      "text": "Как сделать успешный интернет-магазин? Пожалуй, для многих тех, кто находится на старте своего бизнес-проекта - это один из самых важных вопросов. В сегодняшней статье мы расскажем о способах повышения популярности интернет-магазина - проведении рекламной кампании, привлечении пользователей с помощью таргет-рекламы и использовании лендинг-пэйджей.",
+      "image": "http://localhost:3001/assets/images/posts/post-picture.png",
+      "date": "11 Jan 2017 16:18:32 GMT+0400",
+      "comments": [
+        {
+          "id": 1,
+          "text": "Спасибо, то что мне нужно!",
+          "username": "Александр",
+          "avatar": "",
+          "date": "12 Jan 2017 11:20:36 GMT+0400"
+        },
+        {
+          "username": "Пользователь",
+          "date": "2019-07-22T13:52:55.728Z",
+          "text": "Kekos",
+          "avatar": "http://localhost:3001/assets/images/avatars/username.svg",
+          "id": 2
+        }
+      ],
+      "maxCommentId": 2
+    },
+    {
+      "id": 3,
+      "header": "Игровые механики и как они могут помочь",
+      "text": "С появлением социальных сетей, с развитием мобильных технологий, с нескончаемым подъёмом игровой индустрии такие инструменты, как геймификация и использовани игровых механик в бизнесе и обучении становятся всё более популярными. Игры могут давать лишь иллюзию вашей крутости — как внутри виртуальных миров, так и в повседневной жизни. А могут действительно помогать, например учиться и работать.",
+      "image": "http://localhost:3001/assets/images/posts/post-picture.png",
+      "date": "11 Jan 2017 18:23:11 GMT+0400",
+      "comments": [
+        {
+          "id": 1,
+          "text": "Попробую применить в следующем проекте",
+          "username": "Ярослав",
+          "avatar": "",
+          "date": "14 Jan 2017 11:20:36 GMT+0400"
+        },
+        {
+          "username": "Пользователь",
+          "date": "2019-07-22T13:57:31.355Z",
+          "text": "Kekos!",
+          "avatar": "http://localhost:3001/assets/images/avatars/username.svg",
+          "id": 2
+        }
+      ],
+      "maxCommentId": 2
+    },
+    {
+      "id": 4,
+      "header": "Что нового в iOS 10",
+      "text": "Сегодня Крейг Федериги, вице-президент Apple, представил \"самое большое\" обновление (по его словам) iOS. Новая версия мобильной операционной системы Apple включает совершенно новый экран блокировки, обновленные уведомления, расширенную поддержку 3D Touch и новые инструменты для взаимодействия с приложениями. Заинтригованы? Давайте подробнее.\n\nВот так выглядит обновлённый экран блокировки. Появилась возможность совершать действия с уведомлениями прямо на данном экране при помощи 3D Touch, кнопка \"очистить все уведомления\" и другие возможности.\n\nУдивительные изменения претерпел поиск Spotlight. Здесь теперь не только предложения Siri и результаты поиска, но и другая полезная информация: результаты матчей, ваш календарь, погода и даже воспроизведение видео!",
+      "image": "http://localhost:3001/assets/images/posts/post-picture.png",
+      "date": "11 Jan 2017 20:25:01 GMT+0400",
+      "comments": [
+        {
+          "id": 1,
+          "text": "А вообще на андроид похоже",
+          "username": "ZelektrickDOG",
+          "avatar": "http://localhost:3001/assets/images/avatars/ZelektrickDOG.svg",
+          "date": "14 Jun 2016 14:52:11 GMT+0400"
+        },
+        {
+          "id": 2,
+          "text": "Какие устройства будут поддерживать обновление???",
+          "username": "Den4ik7755",
+          "avatar": "http://localhost:3001/assets/images/avatars/Den4ik7755.svg",
+          "date": "13 Jun 2016 14:52:11 GMT+0400"
+        },
+        {
+          "username": "Пользователь",
+          "date": "2019-07-22T13:47:56.444Z",
+          "text": "Кек",
+          "avatar": "http://localhost:3001/assets/images/avatars/username.svg",
+          "id": 3
+        },
+        {
+          "username": "Пользователь",
+          "date": "2019-07-22T13:50:11.568Z",
+          "text": "Кек",
+          "avatar": "http://localhost:3001/assets/images/avatars/username.svg",
+          "id": 4
+        },
+        {
+          "username": "Пользователь",
+          "date": "2019-07-22T13:51:11.051Z",
+          "text": "Кек",
+          "avatar": "http://localhost:3001/assets/images/avatars/username.svg",
+          "id": 5
+        },
+        {
+          "username": "Пользователь",
+          "date": "2019-07-22T13:52:09.218Z",
+          "text": "Kekos",
+          "avatar": "http://localhost:3001/assets/images/avatars/username.svg",
+          "id": 6
+        }
+      ],
+      "maxCommentId": 6
+    },
+    {
+      "id": 11,
+      "header": "Android 10",
+      "text": "Показали обновление Android",
+      "image": "",
+      "date": "2019-07-22T14:45:47.129Z",
+      "comments": [
+        {
+          "username": "Пользователь",
+          "date": "2019-07-22T14:46:16.425Z",
+          "text": "Klass",
+          "avatar": "http://localhost:3001/assets/images/avatars/username.svg",
+          "id": 1
+        }
+      ],
+      "maxCommentId": 1
+    },
+    {
+      "id": 12,
+      "header": "iOS 12",
+      "text": "Показали обновление iOS",
+      "image": "",
+      "date": "2019-07-22T14:47:31.293Z",
+      "comments": [],
+      "maxCommentId": 0
+    },
+    {
+      "id": 13,
+      "header": "Android 10",
+      "text": "Android 10",
+      "image": "",
+      "date": "2019-07-22T14:48:05.145Z",
+      "comments": [],
+      "maxCommentId": 0
+    },
+    {
+      "id": 14,
+      "header": "Kek",
+      "text": "Kek",
+      "image": "",
+      "date": "2019-07-22T14:50:32.646Z",
+      "comments": [],
+      "maxCommentId": 0
+    },
+    {
+      "id": 15,
+      "header": "Новая статья",
+      "text": "Сайт доделан!",
+      "image": "",
+      "date": "2019-07-22T14:54:16.212Z",
+      "comments": [
+        {
+          "username": "Пользователь",
+          "date": "2019-07-22T14:54:26.287Z",
+          "text": "Ура",
+          "avatar": "http://localhost:3001/assets/images/avatars/username.svg",
+          "id": 1
+        },
+        {
+          "username": "Пользователь",
+          "date": "2019-07-22T14:54:33.309Z",
+          "text": "Просто кайф",
+          "avatar": "http://localhost:3001/assets/images/avatars/username.svg",
+          "id": 2
+        }
+      ],
+      "maxCommentId": 2
+    },
+    {
+      "id": 16,
+      "header": "Что дальше?",
+      "text": "",
+      "image": "",
+      "date": "2019-07-22T14:54:46.696Z",
+      "comments": [],
+      "maxCommentId": 0
+    }
+  ],
+  "maxId": {
+    "id": "16"
+  }
+}
