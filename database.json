@@ -130,86 +130,9 @@
         }
       ],
       "maxCommentId": 6
-    },
-    {
-      "id": 11,
-      "header": "Android 10",
-      "text": "Показали обновление Android",
-      "image": "",
-      "date": "2019-07-22T14:45:47.129Z",
-      "comments": [
-        {
-          "username": "Пользователь",
-          "date": "2019-07-22T14:46:16.425Z",
-          "text": "Klass",
-          "avatar": "http://localhost:3001/assets/images/avatars/username.svg",
-          "id": 1
-        }
-      ],
-      "maxCommentId": 1
-    },
-    {
-      "id": 12,
-      "header": "iOS 12",
-      "text": "Показали обновление iOS",
-      "image": "",
-      "date": "2019-07-22T14:47:31.293Z",
-      "comments": [],
-      "maxCommentId": 0
-    },
-    {
-      "id": 13,
-      "header": "Android 10",
-      "text": "Android 10",
-      "image": "",
-      "date": "2019-07-22T14:48:05.145Z",
-      "comments": [],
-      "maxCommentId": 0
-    },
-    {
-      "id": 14,
-      "header": "Kek",
-      "text": "Kek",
-      "image": "",
-      "date": "2019-07-22T14:50:32.646Z",
-      "comments": [],
-      "maxCommentId": 0
-    },
-    {
-      "id": 15,
-      "header": "Новая статья",
-      "text": "Сайт доделан!",
-      "image": "",
-      "date": "2019-07-22T14:54:16.212Z",
-      "comments": [
-        {
-          "username": "Пользователь",
-          "date": "2019-07-22T14:54:26.287Z",
-          "text": "Ура",
-          "avatar": "http://localhost:3001/assets/images/avatars/username.svg",
-          "id": 1
-        },
-        {
-          "username": "Пользователь",
-          "date": "2019-07-22T14:54:33.309Z",
-          "text": "Просто кайф",
-          "avatar": "http://localhost:3001/assets/images/avatars/username.svg",
-          "id": 2
-        }
-      ],
-      "maxCommentId": 2
-    },
-    {
-      "id": 16,
-      "header": "Что дальше?",
-      "text": "",
-      "image": "",
-      "date": "2019-07-22T14:54:46.696Z",
-      "comments": [],
-      "maxCommentId": 0
     }
   ],
   "maxId": {
-    "id": "16"
+    "id": "0"
   }
 }

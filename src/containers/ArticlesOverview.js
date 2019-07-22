@@ -54,7 +54,7 @@ class ArticlesOverview extends Component {
           </Link>
         );
     else
-      postsSortedByDate = <p>Пока здесь нет ни одного поста</p>;
+      postsSortedByDate = <p style={{fontFamily: 'Myriad Pro', fontSize: '1.5em'}}>Пока здесь нет ни одного поста</p>;
 
     return (
       <Fragment>

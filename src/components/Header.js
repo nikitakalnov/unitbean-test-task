@@ -32,11 +32,16 @@ const AddArticleButton = styled.img`
 `;
 
 const header = (props) => {
+  let postsCounter;
+  if(props.postsNumber > 0)
+    postsCounter = `Статьи, ${props.postsNumber}`;
+  else
+    postsCounter = 'Статей нет';
   return (
     <HeaderLayout>
       <span>
         <Logo src={BlackLogo}/>
-        <ArticlesNumber>{`Статьи, ${props.postsNumber}`}</ArticlesNumber>
+        <ArticlesNumber>{postsCounter}</ArticlesNumber>
       </span>
       <Link to="/new"><AddArticleButton src={AddArticle}/></Link>
     </HeaderLayout>
